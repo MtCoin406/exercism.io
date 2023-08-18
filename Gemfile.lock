@@ -90,6 +90,7 @@ GEM
       metaclass (~> 0.0.1)
     multi_json (1.12.1)
     multipart-post (2.0.0)
+    nio4r (2.5.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     octicons (3.0.1)
@@ -106,7 +107,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    puma (2.15.3)
+    puma (5.6.7)
+      nio4r (~> 2.0)
     rack (1.6.5)
     rack-flash3 (1.0.5)
       rack
@@ -197,7 +199,7 @@ DEPENDENCIES
   petroglyph
   pg
   pry
-  puma (~> 2.15.0)
+  puma (~> 5.6.7)
   rack-flash3
   rack-test
   rake (~> 10.5.0)
